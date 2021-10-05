@@ -11,12 +11,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/InstantObj.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/musicEditor/testEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/musicEditor/music1Data.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8645A79-B079-4E0E-9A2B-5BBFF081B88A/70/347560ca/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/musicEditor/BaseMusicData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/InstantObj.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/testEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Editor/testEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/musicEditor/music1Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/musicEditor/BaseMusicData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/musicEditor/testEditor.cs" />
       </list>
     </option>
   </component>
@@ -68,7 +76,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631741828309</updated>
-      <workItem from="1631741833695" duration="402000" />
+      <workItem from="1631741833695" duration="1299000" />
+      <workItem from="1633329848210" duration="4179000" />
     </task>
     <servers />
   </component>
@@ -77,4 +86,15 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
 </project>
