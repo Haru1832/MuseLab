@@ -14,6 +14,7 @@
     <setting file="file://$PROJECT_DIR$/../Capture-tducc/Assets/App/Scripts/Game/Players/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerViewMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/IApplyTouch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerShooter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8645A79-B079-4E0E-9A2B-5BBFF081B88A/70/347560ca/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Input/IPlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
@@ -34,6 +35,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Input/KeyBoardInput.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerViewMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/IApplyTouch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShooter.cs" />
       </list>
     </option>
@@ -88,7 +90,7 @@
       <updated>1631741828309</updated>
       <workItem from="1631741833695" duration="1299000" />
       <workItem from="1633329848210" duration="4179000" />
-      <workItem from="1633603110766" duration="5259000" />
+      <workItem from="1633603110766" duration="5510000" />
     </task>
     <servers />
   </component>
