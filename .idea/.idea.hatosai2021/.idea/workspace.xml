@@ -11,15 +11,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../Capture-tducc/Assets/App/Scripts/Game/Players/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerViewMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/IApplyTouch.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerShooter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8645A79-B079-4E0E-9A2B-5BBFF081B88A/70/347560ca/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Input/IPlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NotesEditor/testEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Input/KeyBoardInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Capture-tducc/Assets/App/Scripts/Game/Players/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Note/NormalNote.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Note/NoteTouch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerShooter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Note/Note.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8645A79-B079-4E0E-9A2B-5BBFF081B88A/70/347560ca/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -37,6 +40,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/IApplyTouch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShooter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Note/NormalNote.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Note/NoteEvaluation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Note/NoteTouch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Note/Note.cs" />
       </list>
     </option>
   </component>
@@ -59,10 +66,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="13740">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="13740" />
       <method v="2" />
     </configuration>
   </component>
@@ -90,7 +97,7 @@
       <updated>1631741828309</updated>
       <workItem from="1631741833695" duration="1299000" />
       <workItem from="1633329848210" duration="4179000" />
-      <workItem from="1633603110766" duration="5510000" />
+      <workItem from="1633603110766" duration="6043000" />
     </task>
     <servers />
   </component>
@@ -113,6 +120,38 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state width="1015" height="344" key="GridCell.Tab.0.bottom" timestamp="1633611787854">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1633611787854" />
+    <state width="1015" height="344" key="GridCell.Tab.0.center" timestamp="1633611787854">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1633611787854" />
+    <state width="1015" height="344" key="GridCell.Tab.0.left" timestamp="1633611787853">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1633611787853" />
+    <state width="1015" height="344" key="GridCell.Tab.0.right" timestamp="1633611787854">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1633611787854" />
+    <state width="1015" height="344" key="GridCell.Tab.1.bottom" timestamp="1633611830193">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1633611830193" />
+    <state width="1015" height="344" key="GridCell.Tab.1.center" timestamp="1633611830192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1633611830192" />
+    <state width="1015" height="344" key="GridCell.Tab.1.left" timestamp="1633611830192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1633611830192" />
+    <state width="1015" height="344" key="GridCell.Tab.1.right" timestamp="1633611830192">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1633611830192" />
     <state x="790" y="195" key="RiderGenerateDialog" timestamp="1633608569770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
