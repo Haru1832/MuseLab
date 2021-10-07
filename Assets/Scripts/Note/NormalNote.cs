@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NormalNote : MonoBehaviour
+public class NormalNote : Note
 {
     // Start is called before the first frame update
     void Start()

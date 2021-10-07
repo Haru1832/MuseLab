@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Note : MonoBehaviour
+[RequireComponent(typeof(NoteTouch))]
+public abstract class Note : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NoteTouch : MonoBehaviour
+public class NoteTouch : MonoBehaviour,IApplyTouch
 {
     // Start is called before the first frame update
     void Start()
@@ -14,5 +14,10 @@ public class NoteTouch : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void ApplyTouch()
+    {
+        Destroy(gameObject);
     }
 }

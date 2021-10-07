@@ -37,7 +37,7 @@ public class PlayerShooter : MonoBehaviour
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range,layerMask))
         {
             IApplyTouch _applyTouch;
-            _applyTouch = hit.collider.gameObject.GetComponent<IApplyTouch>();
+            _applyTouch = hit.collider.gameObject.GetComponentInParent<IApplyTouch>();
             
             _applyTouch.ApplyTouch();
         }
