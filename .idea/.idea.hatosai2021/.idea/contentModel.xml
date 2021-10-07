@@ -1210,6 +1210,18 @@
             <e p="NoteSEPlayer.cs" t="Include" />
             <e p="NoteTouch.cs" t="Include" />
           </e>
+          <e p="NoteManager" t="Include">
+            <e p="NoteFactory" t="Include">
+              <e p="INoteFactory.cs" t="Include" />
+              <e p="NormalNoteFactory.cs" t="Include" />
+              <e p="PoolingNoteFactory.cs" t="Include" />
+            </e>
+            <e p="NoteManager" t="Include">
+              <e p="DebugNoteManager.cs" t="Include" />
+              <e p="NormalNoteManager.cs" t="Include" />
+              <e p="NoteManager.cs" t="Include" />
+            </e>
+          </e>
           <e p="NotesEditor" t="Include">
             <e p="BaseMusicData.cs" t="Include" />
             <e p="music1Data.cs" t="Include" />

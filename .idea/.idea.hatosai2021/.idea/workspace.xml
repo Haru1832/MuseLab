@@ -13,13 +13,19 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerViewMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/INoteFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/NormalNoteFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/IApplyTouch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/DebugNoteManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/NormalNoteManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Input/IPlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NotesEditor/testEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Input/KeyBoardInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Capture-tducc/Assets/App/Scripts/Game/Players/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Note/NormalNote.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Note/NoteTouch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/NoteManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/PoolingNoteFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerShooter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Note/Note.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8645A79-B079-4E0E-9A2B-5BBFF081B88A/70/347560ca/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
@@ -44,6 +50,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Note/Note.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShooter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/NoteManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/NormalNoteManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/DebugNoteManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/INoteFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/NormalNoteFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/PoolingNoteFactory.cs" />
       </list>
     </option>
   </component>
@@ -97,7 +109,7 @@
       <updated>1631741828309</updated>
       <workItem from="1631741833695" duration="1299000" />
       <workItem from="1633329848210" duration="4179000" />
-      <workItem from="1633603110766" duration="6528000" />
+      <workItem from="1633603110766" duration="12151000" />
     </task>
     <servers />
   </component>
