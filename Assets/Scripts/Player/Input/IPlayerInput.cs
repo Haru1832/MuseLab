@@ -2,17 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IPlayerInput : MonoBehaviour
+public interface IPlayerInput
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    bool PushedShot { get; }
+    bool PushedPause { get; }
+    float InputX { get;}
+    float InputY { get;}
 }
