@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace musicEditor
-{
     public class testEditor : MonoBehaviour
     {
         [SerializeField] private BaseMusicData _data;
@@ -15,7 +13,5 @@ namespace musicEditor
                 _data._valueses.Add(new BaseMusicData.setValues(null,1));
             }
         }
-    }
 
-    
-}
+    }

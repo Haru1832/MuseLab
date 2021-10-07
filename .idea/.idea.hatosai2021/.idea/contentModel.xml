@@ -22,22 +22,6 @@
         </e>
         <e p="Plugins" t="Include">
           <e p="UniRx" t="Include">
-            <e p="Examples" t="Include">
-              <e p="Sample01_ObservableWWW.cs" t="Include" />
-              <e p="Sample02_ObservableTriggers.cs" t="Include" />
-              <e p="Sample03_GameObjectAsObservable.cs" t="Include" />
-              <e p="Sample04_ConvertFromUnityCallback.cs" t="Include" />
-              <e p="Sample05_ConvertFromCoroutine.cs" t="Include" />
-              <e p="Sample06_ConvertToCoroutine.cs" t="Include" />
-              <e p="Sample07_OrchestratIEnumerator.cs" t="Include" />
-              <e p="Sample08_DetectDoubleClick.cs" t="Include" />
-              <e p="Sample09_EventHandling.cs" t="Include" />
-              <e p="Sample10_MainThreadDispatcher.cs" t="Include" />
-              <e p="Sample11_Logger.cs" t="Include" />
-              <e p="Sample12_ReactiveProperty.cs" t="Include" />
-              <e p="Sample13_ToDoApp.cs" t="Include" />
-              <e p="UniRx.Examples.asmdef" t="Include" />
-            </e>
             <e p="Scripts" t="Include">
               <e p="Asynchronous" t="Include">
                 <e p="WebRequestExtensions.cs" t="Include" />
@@ -1219,7 +1203,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="musicEditor" t="Include">
+          <e p="NotesEditor" t="Include">
             <e p="BaseMusicData.cs" t="Include" />
             <e p="music1Data.cs" t="Include" />
             <e p="testEditor.cs" t="Include" />
@@ -1231,7 +1215,6 @@
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
       <e p="UniRx.csproj" t="IncludeRecursive" />
-      <e p="UniRx.Examples.csproj" t="IncludeRecursive" />
       <e p="Zenject-Editor.csproj" t="IncludeRecursive" />
       <e p="Zenject-IntegrationTests-Editor.csproj" t="IncludeRecursive" />
       <e p="Zenject-IntegrationTests.csproj" t="IncludeRecursive" />
