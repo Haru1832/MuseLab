@@ -1,0 +1,24 @@
+{
+  "title": "sample",
+  "bpm": "120",
+  "notes": [
+    {"num": "1", "offset": "3"},
+    {"num": "2", "offset": "4"},
+    {"num": "3", "offset": "5"},
+    {"num": "4", "offset": "6"},
+    {"num": "5", "offset": "7"},
+    {"num": "6", "offset": "8"},
+    {"num": "7", "offset": "9"},
+    {"num": "8", "offset": "10"},
+    {"num": "9", "offset": "11"},
+    {"num": "1", "offset": "12"},
+    {"num": "2", "offset": "13"},
+    {"num": "3", "offset": "13.3"},
+    {"num": "4", "offset": "13.5"},
+    {"num": "5", "offset": "13.8"},
+    {"num": "6", "offset": "14"},
+    {"num": "7", "offset": "14.3"},
+    {"num": "8", "offset": "14.6"},
+    {"num": "9", "offset": "14.9"}
+  ]
+}

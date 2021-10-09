@@ -20,6 +20,10 @@
             <e p="ReadMe.txt" t="Include" />
           </e>
         </e>
+        <e p="NotesInfo" t="Include">
+          <e p="JsonNode.cs" t="Include" />
+          <e p="MiniJSON.cs" t="Include" />
+        </e>
         <e p="Plugins" t="Include">
           <e p="UniRx" t="Include">
             <e p="Scripts" t="Include">
@@ -1203,6 +1207,15 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="GameManager" t="Include">
+            <e p="MusicManager" t="Include">
+              <e p="MusicManager.cs" t="Include" />
+              <e p="MusicSelect.cs" t="Include" />
+            </e>
+          </e>
+          <e p="MonoInstaller" t="Include">
+            <e p="MusicManagerMonoInstaller.cs" t="Include" />
+          </e>
           <e p="Note" t="Include">
             <e p="NormalNote.cs" t="Include" />
             <e p="Note.cs" t="Include" />
@@ -1225,6 +1238,7 @@
           <e p="NotesEditor" t="Include">
             <e p="BaseMusicData.cs" t="Include" />
             <e p="music1Data.cs" t="Include" />
+            <e p="SetNotesInfo.cs" t="Include" />
             <e p="testEditor.cs" t="Include" />
           </e>
           <e p="Player" t="Include">

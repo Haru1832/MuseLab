@@ -5,4 +5,8 @@ using UnityEngine;
 public interface INoteFactory
 {
     void InstanceNote();
+
+    void StartInstanceNotes();
+
+    void SetNotesInfo(List<SetNotesInfo> info);
 }

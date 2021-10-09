@@ -12,21 +12,28 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerViewMove.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/INoteFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/NormalNoteFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.visualstudio@2.0.2/Editor/VisualStudioEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Capture-tducc/Assets/App/Scripts/Game/Players/Player.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NotesInfo/JsonNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Assert.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/MusicManager/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerShooter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/IApplyTouch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/DebugNoteManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/NormalNoteManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Input/IPlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoInstaller/MusicManagerMonoInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NotesEditor/testEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Input/KeyBoardInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../Capture-tducc/Assets/App/Scripts/Game/Players/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Note/NormalNote.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NotesEditor/SetNotesInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Note/NoteTouch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/NoteManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/PoolingNoteFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerShooter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Resources/json/sample.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Note/Note.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8645A79-B079-4E0E-9A2B-5BBFF081B88A/70/347560ca/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -51,11 +58,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShooter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/NoteManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/NormalNoteManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/DebugNoteManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonoInstaller/MusicManagerMonoInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager/MusicManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager/MusicManager/MusicManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NotesEditor/SetNotesInfo.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/INoteFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/NormalNoteFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/PoolingNoteFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/NormalNoteManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Resources/json/sample.json" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/NormalNoteFactory.cs" />
       </list>
     </option>
   </component>
@@ -71,17 +83,17 @@
     <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12196">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="12196" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="13740">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="12196">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="13740" />
+      <option name="pid" value="12196" />
       <method v="2" />
     </configuration>
   </component>
@@ -110,6 +122,7 @@
       <workItem from="1631741833695" duration="1299000" />
       <workItem from="1633329848210" duration="4179000" />
       <workItem from="1633603110766" duration="12151000" />
+      <workItem from="1633659821539" duration="17899000" />
     </task>
     <servers />
   </component>
@@ -132,38 +145,74 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1015" height="344" key="GridCell.Tab.0.bottom" timestamp="1633611787854">
+    <state width="597" height="438" key="DebuggerActiveHint" timestamp="1633701773669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1015" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1633611787854" />
-    <state width="1015" height="344" key="GridCell.Tab.0.center" timestamp="1633611787854">
+    <state width="597" height="438" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1633701773669" />
+    <state width="1015" height="359" key="GridCell.Tab.0.bottom" timestamp="1633750295114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1015" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1633611787854" />
-    <state width="1015" height="344" key="GridCell.Tab.0.left" timestamp="1633611787853">
+    <state width="1015" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1633750295114" />
+    <state width="1015" height="359" key="GridCell.Tab.0.center" timestamp="1633750295114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1015" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1633611787853" />
-    <state width="1015" height="344" key="GridCell.Tab.0.right" timestamp="1633611787854">
+    <state width="1015" height="359" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1633750295114" />
+    <state width="1015" height="359" key="GridCell.Tab.0.left" timestamp="1633750295113">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1015" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1633611787854" />
-    <state width="1015" height="344" key="GridCell.Tab.1.bottom" timestamp="1633611830193">
+    <state width="1015" height="359" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1633750295113" />
+    <state width="1015" height="359" key="GridCell.Tab.0.right" timestamp="1633750295114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1015" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1633611830193" />
-    <state width="1015" height="344" key="GridCell.Tab.1.center" timestamp="1633611830192">
+    <state width="1015" height="359" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1633750295114" />
+    <state width="1015" height="359" key="GridCell.Tab.1.bottom" timestamp="1633750295114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1015" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1633611830192" />
-    <state width="1015" height="344" key="GridCell.Tab.1.left" timestamp="1633611830192">
+    <state width="1015" height="359" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1633750295114" />
+    <state width="1015" height="359" key="GridCell.Tab.1.center" timestamp="1633750295114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1015" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1633611830192" />
-    <state width="1015" height="344" key="GridCell.Tab.1.right" timestamp="1633611830192">
+    <state width="1015" height="359" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1633750295114" />
+    <state width="1015" height="359" key="GridCell.Tab.1.left" timestamp="1633750295114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1015" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1633611830192" />
+    <state width="1015" height="359" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1633750295114" />
+    <state width="1015" height="359" key="GridCell.Tab.1.right" timestamp="1633750295114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="359" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1633750295114" />
+    <state width="1015" height="359" key="GridCell.Tab.2.bottom" timestamp="1633750295114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="359" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1633750295114" />
+    <state width="1015" height="359" key="GridCell.Tab.2.center" timestamp="1633750295114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="359" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1633750295114" />
+    <state width="1015" height="359" key="GridCell.Tab.2.left" timestamp="1633750295114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="359" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1633750295114" />
+    <state width="1015" height="359" key="GridCell.Tab.2.right" timestamp="1633750295114">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="359" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1633750295114" />
+    <state width="1015" height="359" key="GridCell.Tab.3.bottom" timestamp="1633750295115">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="359" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1633750295115" />
+    <state width="1015" height="359" key="GridCell.Tab.3.center" timestamp="1633750295115">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="359" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1633750295115" />
+    <state width="1015" height="359" key="GridCell.Tab.3.left" timestamp="1633750295115">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="359" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1633750295115" />
+    <state width="1015" height="359" key="GridCell.Tab.3.right" timestamp="1633750295115">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1015" height="359" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1633750295115" />
     <state x="790" y="195" key="RiderGenerateDialog" timestamp="1633608569770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
