@@ -1,7 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 using Zenject;
+using DG.Tweening;
+using UniRx;
+using UniRx.Triggers;
 
 public class NoteAnimation : MonoBehaviour
 {
@@ -9,8 +14,9 @@ public class NoteAnimation : MonoBehaviour
 
     [SerializeField] private GameObject sphereObj;
 
-    private float _addScaleValue=0.02f;
-   
+    private CancellationToken token;
+    
+    private float _disTime=0.15f;
 
     private float startTime;
     private float finishTime;
@@ -20,18 +26,26 @@ public class NoteAnimation : MonoBehaviour
 
     private Vector3 scaleVec;
 
-    private bool IsAnimating;
+    private bool _isAnimating;
+
+    private bool _isFinished;
     // Start is called before the first frame update
     void Start()
     {
+        token = this.GetCancellationTokenOnDestroy();
         _transform = sphereObj.transform;
         _transform.localScale = Vector3.zero;
+
+        this.UpdateAsObservable()
+            .Where(_ => _isAnimating)
+            .Subscribe(_ => { _transform.localScale = CurrentScaleVec3(CaluculateScale()); })
+            .AddTo(this);
     }
 
     // Update is called once per frame
     void Update()
     {
-        _transform.localScale = CurrentScaleVec3(CaluculateScale());
+        
     }
 
     public void SetAnimTime(MusicManager _manager,float startTime,float finishTime)
@@ -40,12 +54,19 @@ public class NoteAnimation : MonoBehaviour
         this.finishTime = finishTime;
         AnimTime = finishTime - startTime;
         this._manager = _manager;
+        _isAnimating = true;
     }
 
     private float CaluculateScale()
     {
         float currentScale =  1 - ((finishTime - _manager.currentTime) / AnimTime);
         currentScale = currentScale >= 1 ? 1 : currentScale;
+        if (currentScale >= 1)
+        {
+            _isAnimating = false;
+            currentScale = 1;
+            EasingActiveFalse(token);
+        }
 
         return currentScale;
     }
@@ -53,5 +74,20 @@ public class NoteAnimation : MonoBehaviour
     private Vector3 CurrentScaleVec3(float scale)
     {
         return new Vector3(scale,scale,scale);
+    }
+
+    private async void EasingActiveFalse(CancellationToken _token)
+    {
+        
+        Tweener t = _transform.DOScale(
+            Vector3.zero,
+            _disTime
+        ).SetEase(Ease.InSine).OnComplete(Activefalse);
+        //await UniTask.WaitUntil(t.ToUniTask(cancellationToken : _token), cancellationToken: _token);
+    }
+
+    void Activefalse()
+    {
+        gameObject.SetActive(false);
     }
 }

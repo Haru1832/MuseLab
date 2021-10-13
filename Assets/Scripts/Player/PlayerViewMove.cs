@@ -31,6 +31,7 @@ public class PlayerViewMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         cameraRot = fpsCam.transform.localRotation;
         characterRot = transform.localRotation;
 
