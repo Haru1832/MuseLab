@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UniRx;
 using UniRx.Triggers;
 using UnityEngine;
@@ -10,6 +11,8 @@ public class PoolingNoteFactory : MonoBehaviour,INoteFactory
     [Inject] private MusicManager _manager;
     private List<SetNotesInfo> _currentNotesInfo;
 
+    private BaseMusicData _data;
+    
     private float _allowableError=0.01f;
 
     private int index=0;
@@ -35,8 +38,9 @@ public class PoolingNoteFactory : MonoBehaviour,INoteFactory
         
     }
 
-    public void SetNotesInfo(List<SetNotesInfo> info)
+    public void SetNotesInfo(List<SetNotesInfo> info,BaseMusicData data)
     {
         _currentNotesInfo = info;
+        _data = data;
     }
 }

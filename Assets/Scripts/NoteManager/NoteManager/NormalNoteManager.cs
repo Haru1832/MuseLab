@@ -11,11 +11,15 @@ public class NormalNoteManager : NoteManager
     [SerializeField]
     String MusicDataName=null;
 
-    private String FilePath;
+    private String JsonPath="json/";
+    private String NoteDataPath="NoteData/";
     
     string Title;
     int BPM;
     List<SetNotesInfo> _notesInfos = new List<SetNotesInfo>();
+
+    private BaseMusicData _data;
+    private GameObject obj;
 
     
     
@@ -25,25 +29,27 @@ public class NormalNoteManager : NoteManager
 
     private void Awake()
     {
-        FilePath = "json/" + MusicDataName;
+        JsonPath += MusicDataName;
+        NoteDataPath += MusicDataName;
         noteFactory = GetComponent<INoteFactory>();
-        LoadChart();
     }
 
     void Start()
     {
+        obj = (GameObject) Instantiate(Resources.Load(NoteDataPath));
+        _data = obj.GetComponent<BaseMusicData>();
+        LoadChart();
         noteFactory.StartInstanceNotes();
     }
 
     void LoadChart()
     {
-        string jsonText = Resources.Load<TextAsset>(FilePath).ToString();
+        string jsonText = Resources.Load<TextAsset>(JsonPath).ToString();
         JsonNode json = JsonNode.Parse(jsonText);
         Title = json["title"].Get<string>();
         BPM = int.Parse(json["bpm"].Get<string>());
         foreach(var note in json["notes"]) {
-            String num_str = note["num"].Get<String>();
-            int num = num_str[0];
+            int num = int.Parse(note["num"].Get<string>());
             float offset = float.Parse(note["offset"].Get<string>());
 
             SetNotesInfo noteInfo;
@@ -52,7 +58,7 @@ public class NormalNoteManager : NoteManager
 
             _notesInfos.Add(noteInfo);
         }
-        noteFactory.SetNotesInfo(_notesInfos);
+        noteFactory.SetNotesInfo(_notesInfos,_data);
     }
 
     public override void ManageTime()

@@ -8,5 +8,5 @@ public interface INoteFactory
 
     void StartInstanceNotes();
 
-    void SetNotesInfo(List<SetNotesInfo> info);
+    void SetNotesInfo(List<SetNotesInfo> info,BaseMusicData data);
 }

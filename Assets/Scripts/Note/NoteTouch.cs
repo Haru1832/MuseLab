@@ -18,6 +18,6 @@ public class NoteTouch : MonoBehaviour,IApplyTouch
 
     public void ApplyTouch()
     {
-        Destroy(gameObject);
+       gameObject.SetActive(false);
     }
 }
