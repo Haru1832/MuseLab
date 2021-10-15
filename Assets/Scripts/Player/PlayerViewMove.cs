@@ -4,9 +4,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UniRx;
 using UniRx.Triggers;
+using Zenject;
 
 public class PlayerViewMove : MonoBehaviour
 {
+    [Inject] private Config _config;
+    private Camera _camera;
+    public bool isPlaying = true;
+    
     private IPlayerInput _input;
     float x, z;
     float speed = 0.1f;
@@ -23,6 +28,7 @@ public class PlayerViewMove : MonoBehaviour
 
     private void Awake()
     {
+        _camera = Camera.main;
         _player = GetComponent<Player>();
         fpsCam = _player.fpsCam;
         _input = GetComponent<IPlayerInput>();
@@ -35,7 +41,18 @@ public class PlayerViewMove : MonoBehaviour
         cameraRot = fpsCam.transform.localRotation;
         characterRot = transform.localRotation;
 
+        this.ObserveEveryValueChanged(x => x._config.view)
+            .Subscribe(x =>
+            {
+                Ysensityvity = x.Sensitivity;
+                Xsensityvity = x.Sensitivity;
+                _camera.fieldOfView = x.FieldOfView;
+            })
+            .AddTo(this);
+
+
         this.UpdateAsObservable()
+            .Where(_=>isPlaying)
             .Subscribe(_ => { MoveView(); })
             .AddTo(this);
     }

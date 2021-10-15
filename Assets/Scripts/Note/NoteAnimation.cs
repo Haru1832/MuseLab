@@ -60,7 +60,7 @@ public class NoteAnimation : MonoBehaviour
     private float CaluculateScale()
     {
         float currentScale =  1 - ((finishTime - _manager.currentTime) / AnimTime);
-        currentScale = currentScale >= 1 ? 1 : currentScale;
+        //currentScale = currentScale >= 1 ? 1 : currentScale;
         if (currentScale >= 1)
         {
             _isAnimating = false;

@@ -1389,10 +1389,16 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="GameManager" t="Include">
+            <e p="CameraManager" t="Include">
+              <e p="SetSameField.cs" t="Include" />
+            </e>
+            <e p="Config.cs" t="Include" />
+            <e p="InputValue.cs" t="Include" />
             <e p="MusicManager" t="Include">
               <e p="MusicManager.cs" t="Include" />
               <e p="MusicSelect.cs" t="Include" />
             </e>
+            <e p="ViewSettings.cs" t="Include" />
           </e>
           <e p="MonoInstaller" t="Include">
             <e p="MusicManagerMonoInstaller.cs" t="Include" />
@@ -1431,6 +1437,7 @@
               <e p="KeyBoardInput.cs" t="Include" />
             </e>
             <e p="Player.cs" t="Include" />
+            <e p="PlayerPause.cs" t="Include" />
             <e p="PlayerSEPlayer.cs" t="Include" />
             <e p="PlayerShooter.cs" t="Include" />
             <e p="PlayerViewMove.cs" t="Include" />

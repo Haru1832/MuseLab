@@ -15,17 +15,22 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/INoteFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/NormalNoteFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.visualstudio@2.0.2/Editor/VisualStudioEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/ViewSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Capture-tducc/Assets/App/Scripts/Game/Players/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NotesInfo/JsonNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/Config.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Assert.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/MusicManager/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/CameraManager/SetSameField.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerShooter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NotesEditor/music1Data.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/IApplyTouch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/DebugNoteManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/InputValue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/NormalNoteManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NotesEditor/BaseMusicData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerPause.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Input/IPlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoInstaller/MusicManagerMonoInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NotesEditor/testEditor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -50,8 +55,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/musicEditor/BaseMusicData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/musicEditor/testEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Input/IPlayerInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Input/KeyBoardInput.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerViewMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/IApplyTouch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Note/NormalNote.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Note/NoteEvaluation.cs" />
@@ -60,7 +63,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/NoteManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/DebugNoteManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MonoInstaller/MusicManagerMonoInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager/MusicManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager/MusicManager/MusicManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/json/sample.json" />
@@ -73,6 +75,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/NormalNoteManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/NormalNoteFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Note/NoteAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MonoInstaller/MusicManagerMonoInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerPause.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager/ViewSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerViewMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager/CameraManager/SetSameField.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager/InputValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager/Config.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Input/KeyBoardInput.cs" />
       </list>
     </option>
   </component>
@@ -130,7 +140,8 @@
       <workItem from="1633659821539" duration="17899000" />
       <workItem from="1633856938592" duration="3708000" />
       <workItem from="1634053422060" duration="13387000" />
-      <workItem from="1634114911753" duration="1156000" />
+      <workItem from="1634114911753" duration="1767000" />
+      <workItem from="1634246548189" duration="7928000" />
     </task>
     <servers />
   </component>

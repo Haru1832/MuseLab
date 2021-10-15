@@ -12,6 +12,11 @@ public class MusicManagerMonoInstaller : MonoInstaller
             .FromComponentInNewPrefabResource("Manager/MusicManager")
             .AsSingle()
             .NonLazy();
-
+        
+        
+        Container.Bind<Config>()
+            .FromComponentInNewPrefabResource("Manager/Config")
+            .AsSingle()
+            .NonLazy();
     }
 }
