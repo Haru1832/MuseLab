@@ -1408,6 +1408,7 @@
             <e p="Note.cs" t="Include" />
             <e p="NoteAnimation.cs" t="Include" />
             <e p="NoteEval.cs" t="Include" />
+            <e p="NoteFloatEval.cs" t="Include" />
             <e p="NoteSEPlayer.cs" t="Include" />
             <e p="NoteTouch.cs" t="Include" />
           </e>
