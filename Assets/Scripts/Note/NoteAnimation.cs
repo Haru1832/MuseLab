@@ -10,7 +10,9 @@ using UniRx.Triggers;
 
 public class NoteAnimation : MonoBehaviour
 {
-    [Inject] private MusicManager _manager;
+    private MusicManager _manager;
+
+    private Note _note;
 
     [SerializeField] private GameObject sphereObj;
 
@@ -32,6 +34,8 @@ public class NoteAnimation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _note = GetComponent<Note>();
+        
         token = this.GetCancellationTokenOnDestroy();
         _transform = sphereObj.transform;
         _transform.localScale = Vector3.zero;
@@ -48,12 +52,12 @@ public class NoteAnimation : MonoBehaviour
         
     }
 
-    public void SetAnimTime(MusicManager _manager,float startTime,float finishTime)
+    public void StartAnim(MusicManager manager,float startTime,float finishTime)
     {
         this.startTime = startTime;
         this.finishTime = finishTime;
+        this._manager = manager;
         AnimTime = finishTime - startTime;
-        this._manager = _manager;
         _isAnimating = true;
     }
 

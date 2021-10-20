@@ -1,19 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Zenject;
 
 [RequireComponent(typeof(NoteTouch))]
 public abstract class Note : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public MusicManager manager;
+    public float startTime;
+    public float finishTime;
+    
+    public void SetAnimTime(MusicManager manager,float startTime,float finishTime)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        this.manager = manager;
+        this.startTime = startTime;
+        this.finishTime = finishTime;
     }
 }

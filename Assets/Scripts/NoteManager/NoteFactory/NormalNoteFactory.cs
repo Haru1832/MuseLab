@@ -38,9 +38,13 @@ public class NormalNoteFactory : MonoBehaviour,INoteFactory
                  Debug.Log(_manager.currentTime);
                  if (!_data.notes[VARIABLE.NoteNumber - 1].activeSelf)
                  {
-                     _data.notes[VARIABLE.NoteNumber - 1].SetActive(true);
-                     NoteAnimation _animation = _data.notes[VARIABLE.NoteNumber - 1].GetComponent<NoteAnimation>();
-                     _animation.SetAnimTime(_manager,_manager.currentTime,VARIABLE.Offset);
+                     GameObject noteObj = _data.notes[VARIABLE.NoteNumber - 1];
+                     
+                     noteObj.SetActive(true);
+                     Note note = noteObj.GetComponent<Note>();
+                     note.SetAnimTime(_manager,_manager.currentTime,VARIABLE.Offset);
+                     NoteAnimation _noteAnimation = noteObj.GetComponent<NoteAnimation>();
+                     _noteAnimation.StartAnim(_manager,_manager.currentTime,VARIABLE.Offset);
                  }
             }
         }
