@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Zenject;
 
 public class NoteTouch : MonoBehaviour,IApplyTouch
 {
+    [Inject] private ScoreManager _scoreManager; 
     private Note note;
     // Start is called before the first frame update
     void Start()
@@ -27,7 +29,7 @@ public class NoteTouch : MonoBehaviour,IApplyTouch
     {
         NoteEval noteEval = ScoreJudge();
         Debug.Log(noteEval);
-        //ScoreManager.Addscore
+        _scoreManager.AddScore(noteEval);
     }
 
     NoteEval ScoreJudge()
@@ -37,6 +39,7 @@ public class NoteTouch : MonoBehaviour,IApplyTouch
         float finishTime = note.finishTime;
         float startTime = note.startTime;
         float errorTime = Mathf.Abs(currentTime - finishTime);
+        Debug.Log(errorTime);
         if (errorTime <= finishTime - startTime && errorTime >=NoteFloatEval.FloatEvals[(int) NoteEval.Bad].Timing)
         {
             return NoteEval.Bad;
