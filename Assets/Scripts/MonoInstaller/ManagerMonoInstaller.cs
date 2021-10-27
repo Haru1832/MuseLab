@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Zenject;
 
-public class MusicManagerMonoInstaller : MonoInstaller
+public class ManagerMonoInstaller : MonoInstaller
 {
     public override void InstallBindings()
     {
@@ -16,6 +16,15 @@ public class MusicManagerMonoInstaller : MonoInstaller
         
         Container.Bind<Config>()
             .FromComponentInNewPrefabResource("Manager/Config")
+            .AsSingle()
+            .NonLazy();
+        
+        Container.Bind<ScoreManager>()
+            .FromComponentInNewPrefabResource("Manager/ScoreManager")
+            .AsSingle()
+            .NonLazy();
+        Container.Bind<ComboManager>()
+            .FromComponentInNewPrefabResource("Manager/ComboManager")
             .AsSingle()
             .NonLazy();
     }
