@@ -4,8 +4,173 @@
     <e p="C:\Users\minec\.Rider2019.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\minec\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_hatosai2021.1491765760.00" t="ExcludeRecursive" />
     <e p="D:\hatosai2021" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="#NVJOB Alpha Flashing UI" t="Include">
+          <e p="Alpha Flashing UI" t="Include">
+            <e p="Alpha Flashing Sprite.shader" t="Include" />
+            <e p="Alpha Flashing Text.shader" t="Include" />
+            <e p="AlphaFlashingText.cs" t="Include" />
+          </e>
+          <e p="Example Scenes" t="Include">
+            <e p="Materials" t="Include">
+              <e p="Font" t="Include">
+                <e p="OFL.txt" t="Include" />
+              </e>
+              <e p="Images" t="Include">
+                <e p="Images license.txt" t="Include" />
+              </e>
+            </e>
+            <e p="Sound" t="Include">
+              <e p="Sound license.txt" t="Include" />
+            </e>
+            <e p="Standard Assets" t="Include">
+              <e p="Editor" t="Include">
+                <e p="ImageEffects" t="Include">
+                  <e p="AntialiasingEditor.cs" t="Include" />
+                  <e p="BloomAndFlaresEditor.cs" t="Include" />
+                  <e p="BloomEditor.cs" t="Include" />
+                  <e p="CameraMotionBlurEditor.cs" t="Include" />
+                  <e p="ColorCorrectionCurvesEditor.cs" t="Include" />
+                  <e p="ColorCorrectionLookupEditor.cs" t="Include" />
+                  <e p="CreaseShadingEditor.cs" t="Include" />
+                  <e p="DepthOfFieldDeprecatedEditor.cs" t="Include" />
+                  <e p="DepthOfFieldEditor.cs" t="Include" />
+                  <e p="EdgeDetectionEditor.cs" t="Include" />
+                  <e p="NoiseAndGrainEditor.cs" t="Include" />
+                  <e p="SunShaftsEditor.cs" t="Include" />
+                  <e p="TonemappingEditor.cs" t="Include" />
+                  <e p="VignetteAndChromaticAberrationEditor.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Effects" t="Include">
+                <e p="ImageEffects" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="Antialiasing.cs" t="Include" />
+                    <e p="Bloom.cs" t="Include" />
+                    <e p="BloomAndFlares.cs" t="Include" />
+                    <e p="BloomOptimized.cs" t="Include" />
+                    <e p="Blur.cs" t="Include" />
+                    <e p="BlurOptimized.cs" t="Include" />
+                    <e p="CameraMotionBlur.cs" t="Include" />
+                    <e p="ColorCorrectionCurves.cs" t="Include" />
+                    <e p="ColorCorrectionLookup.cs" t="Include" />
+                    <e p="ColorCorrectionRamp.cs" t="Include" />
+                    <e p="ContrastEnhance.cs" t="Include" />
+                    <e p="ContrastStretch.cs" t="Include" />
+                    <e p="CreaseShading.cs" t="Include" />
+                    <e p="DepthOfField.cs" t="Include" />
+                    <e p="DepthOfFieldDeprecated.cs" t="Include" />
+                    <e p="EdgeDetection.cs" t="Include" />
+                    <e p="Fisheye.cs" t="Include" />
+                    <e p="GlobalFog.cs" t="Include" />
+                    <e p="Grayscale.cs" t="Include" />
+                    <e p="ImageEffectBase.cs" t="Include" />
+                    <e p="ImageEffects.cs" t="Include" />
+                    <e p="MotionBlur.cs" t="Include" />
+                    <e p="NoiseAndGrain.cs" t="Include" />
+                    <e p="NoiseAndScratches.cs" t="Include" />
+                    <e p="PostEffectsBase.cs" t="Include" />
+                    <e p="PostEffectsHelper.cs" t="Include" />
+                    <e p="Quads.cs" t="Include" />
+                    <e p="ScreenOverlay.cs" t="Include" />
+                    <e p="ScreenSpaceAmbientObscurance.cs" t="Include" />
+                    <e p="ScreenSpaceAmbientOcclusion.cs" t="Include" />
+                    <e p="SepiaTone.cs" t="Include" />
+                    <e p="SunShafts.cs" t="Include" />
+                    <e p="TiltShift.cs" t="Include" />
+                    <e p="Tonemapping.cs" t="Include" />
+                    <e p="Triangles.cs" t="Include" />
+                    <e p="Twirl.cs" t="Include" />
+                    <e p="VignetteAndChromaticAberration.cs" t="Include" />
+                    <e p="Vortex.cs" t="Include" />
+                  </e>
+                  <e p="Shaders" t="Include">
+                    <e p="_Antialiasing" t="Include">
+                      <e p="DLAA.shader" t="Include" />
+                      <e p="FXAA2.shader" t="Include" />
+                      <e p="FXAA3Console.shader" t="Include" />
+                      <e p="FXAAPreset2.shader" t="Include" />
+                      <e p="FXAAPreset3.shader" t="Include" />
+                      <e p="NFAA.shader" t="Include" />
+                      <e p="SSAA.shader" t="Include" />
+                    </e>
+                    <e p="_BloomAndFlares" t="Include">
+                      <e p="Blend.shader" t="Include" />
+                      <e p="BlendForBloom.shader" t="Include" />
+                      <e p="BlendOneOne.shader" t="Include" />
+                      <e p="BlurAndFlares.shader" t="Include" />
+                      <e p="BrightPassFilter.shader" t="Include" />
+                      <e p="BrightPassFilter2.shader" t="Include" />
+                      <e p="LensFlareCreate.shader" t="Include" />
+                      <e p="MobileBloom.shader" t="Include" />
+                      <e p="MobileBlur.shader" t="Include" />
+                      <e p="MultiPassHollywoodFlares.shader" t="Include" />
+                      <e p="SeparableBlurPlus.shader" t="Include" />
+                      <e p="VignetteShader.shader" t="Include" />
+                    </e>
+                    <e p="_DepthOfField" t="Include">
+                      <e p="Bokeh34.shader" t="Include" />
+                      <e p="DepthOfField34.shader" t="Include" />
+                      <e p="DepthOfFieldDX11.shader" t="Include" />
+                      <e p="DepthOfFieldScatter.shader" t="Include" />
+                      <e p="SeparableBlur.shader" t="Include" />
+                      <e p="SeparableWeightedBlurDof34.shader" t="Include" />
+                      <e p="TiltShiftHdrLensBlur.shader" t="Include" />
+                    </e>
+                    <e p="BlendModesOverlay.shader" t="Include" />
+                    <e p="BlurEffectConeTaps.shader" t="Include" />
+                    <e p="CameraMotionBlur.shader" t="Include" />
+                    <e p="CameraMotionBlurDX11.shader" t="Include" />
+                    <e p="ChromaticAberrationShader.shader" t="Include" />
+                    <e p="ColorCorrection3DLut.shader" t="Include" />
+                    <e p="ColorCorrectionCurves.shader" t="Include" />
+                    <e p="ColorCorrectionCurvesSimple.shader" t="Include" />
+                    <e p="ColorCorrectionEffect.shader" t="Include" />
+                    <e p="ColorCorrectionSelective.shader" t="Include" />
+                    <e p="Contrast Stretch" t="Include">
+                      <e p="Adaptation.shader" t="Include" />
+                      <e p="Apply.shader" t="Include" />
+                      <e p="Luminance.shader" t="Include" />
+                      <e p="MinMaxReduction.shader" t="Include" />
+                    </e>
+                    <e p="ContrastComposite.shader" t="Include" />
+                    <e p="ConvertDepth.shader" t="Include" />
+                    <e p="CreaseApply.shader" t="Include" />
+                    <e p="EdgeDetectNormals.shader" t="Include" />
+                    <e p="FisheyeShader.shader" t="Include" />
+                    <e p="frag_ao.cginc" t="Include" />
+                    <e p="GlobalFog.shader" t="Include" />
+                    <e p="GrayscaleEffect.shader" t="Include" />
+                    <e p="MotionBlur.shader" t="Include" />
+                    <e p="MotionBlurClear.shader" t="Include" />
+                    <e p="NoiseAndGrain.shader" t="Include" />
+                    <e p="NoiseAndGrainDX11.shader" t="Include" />
+                    <e p="NoiseEffectShaderRGB.shader" t="Include" />
+                    <e p="NoiseEffectShaderYUV.shader" t="Include" />
+                    <e p="PrepareSunShaftsBlur.shader" t="Include" />
+                    <e p="RadialBlur.shader" t="Include" />
+                    <e p="ScreenSpaceAmbientObscurance.shader" t="Include" />
+                    <e p="ScreenSpaceRaytrace.cginc" t="Include" />
+                    <e p="SepiaToneEffect.shader" t="Include" />
+                    <e p="ShowAlphaChannel.shader" t="Include" />
+                    <e p="SimpleClear.shader" t="Include" />
+                    <e p="SSAOShader.shader" t="Include" />
+                    <e p="SunShaftsComposite.shader" t="Include" />
+                    <e p="Tonemapper.shader" t="Include" />
+                    <e p="TwirlEffect.shader" t="Include" />
+                    <e p="VignettingShader.shader" t="Include" />
+                    <e p="VortexEffect.shader" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="license_nvjob.txt" t="Include" />
+          <e p="license_unity.txt" t="Include" />
+          <e p="ReadMe.txt" t="Include" />
+        </e>
         <e p="Demigiant" t="Include">
           <e p="DOTween" t="Include">
             <e p="Modules" t="Include">
@@ -18,6 +183,129 @@
               <e p="DOTweenModuleUtils.cs" t="Include" />
             </e>
             <e p="ReadMe.txt" t="Include" />
+          </e>
+        </e>
+        <e p="FancyScrollView-master" t="Include">
+          <e p="Assets" t="Include">
+            <e p="FancyScrollView" t="Include">
+              <e p="Examples" t="Include">
+                <e p="Sources" t="Include">
+                  <e p="01_Basic" t="Include">
+                    <e p="Cell.cs" t="Include" />
+                    <e p="Example01.cs" t="Include" />
+                    <e p="ItemData.cs" t="Include" />
+                    <e p="ScrollView.cs" t="Include" />
+                  </e>
+                  <e p="02_FocusOn" t="Include">
+                    <e p="Cell.cs" t="Include" />
+                    <e p="Context.cs" t="Include" />
+                    <e p="Example02.cs" t="Include" />
+                    <e p="ItemData.cs" t="Include" />
+                    <e p="ScrollView.cs" t="Include" />
+                  </e>
+                  <e p="03_InfiniteScroll" t="Include">
+                    <e p="Cell.cs" t="Include" />
+                    <e p="Context.cs" t="Include" />
+                    <e p="Example03.cs" t="Include" />
+                    <e p="ItemData.cs" t="Include" />
+                    <e p="ScrollView.cs" t="Include" />
+                  </e>
+                  <e p="04_Metaball" t="Include">
+                    <e p="Background.cs" t="Include" />
+                    <e p="Cell.cs" t="Include" />
+                    <e p="Context.cs" t="Include" />
+                    <e p="Example04.cs" t="Include" />
+                    <e p="ItemData.cs" t="Include" />
+                    <e p="Metaball.hlsl" t="Include" />
+                    <e p="Metaball.shader" t="Include" />
+                    <e p="ScrollView.cs" t="Include" />
+                  </e>
+                  <e p="05_Voronoi" t="Include">
+                    <e p="Background.cs" t="Include" />
+                    <e p="Cell.cs" t="Include" />
+                    <e p="Context.cs" t="Include" />
+                    <e p="Example05.cs" t="Include" />
+                    <e p="ItemData.cs" t="Include" />
+                    <e p="ScrollView.cs" t="Include" />
+                    <e p="Voronoi.hlsl" t="Include" />
+                    <e p="Voronoi.shader" t="Include" />
+                  </e>
+                  <e p="06_LoopTabBar" t="Include">
+                    <e p="Context.cs" t="Include" />
+                    <e p="Example06.cs" t="Include" />
+                    <e p="ItemData.cs" t="Include" />
+                    <e p="ScrollView.cs" t="Include" />
+                    <e p="SlideScreenTransition.cs" t="Include" />
+                    <e p="Tab.cs" t="Include" />
+                    <e p="Window.cs" t="Include" />
+                  </e>
+                  <e p="07_ScrollRect" t="Include">
+                    <e p="Alignment.cs" t="Include" />
+                    <e p="Cell.cs" t="Include" />
+                    <e p="Context.cs" t="Include" />
+                    <e p="Example07.cs" t="Include" />
+                    <e p="ItemData.cs" t="Include" />
+                    <e p="ScrollView.cs" t="Include" />
+                  </e>
+                  <e p="08_GridView" t="Include">
+                    <e p="Alignment.cs" t="Include" />
+                    <e p="Cell.cs" t="Include" />
+                    <e p="Context.cs" t="Include" />
+                    <e p="Example08.cs" t="Include" />
+                    <e p="GridView.cs" t="Include" />
+                    <e p="ItemData.cs" t="Include" />
+                  </e>
+                  <e p="09_LoadTexture" t="Include">
+                    <e p="Cell.cs" t="Include" />
+                    <e p="Example09.cs" t="Include" />
+                    <e p="ItemData.cs" t="Include" />
+                    <e p="ScrollView.cs" t="Include" />
+                    <e p="TextureLoader.cs" t="Include" />
+                  </e>
+                  <e p="Common" t="Include">
+                    <e p="Common.cginc" t="Include" />
+                    <e p="ScenesDropdown.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Sources" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="FancyScrollView.Editor.asmdef" t="Include" />
+                  <e p="ScrollerEditor.cs" t="Include" />
+                </e>
+                <e p="Runtime" t="Include">
+                  <e p="Core" t="Include">
+                    <e p="FancyCell.cs" t="Include" />
+                    <e p="FancyScrollView.cs" t="Include" />
+                  </e>
+                  <e p="FancyScrollView.asmdef" t="Include" />
+                  <e p="GridView" t="Include">
+                    <e p="FancyCellGroup.cs" t="Include" />
+                    <e p="FancyGridView.cs" t="Include" />
+                    <e p="FancyGridViewCell.cs" t="Include" />
+                    <e p="FancyGridViewContext.cs" t="Include" />
+                    <e p="IFancyCellGroupContext.cs" t="Include" />
+                    <e p="IFancyGridViewContext.cs" t="Include" />
+                  </e>
+                  <e p="Scroller" t="Include">
+                    <e p="EasingCore.cs" t="Include" />
+                    <e p="MovementDirection.cs" t="Include" />
+                    <e p="MovementType.cs" t="Include" />
+                    <e p="ScrollDirection.cs" t="Include" />
+                    <e p="Scroller.cs" t="Include" />
+                  </e>
+                  <e p="ScrollRect" t="Include">
+                    <e p="FancyScrollRect.cs" t="Include" />
+                    <e p="FancyScrollRectCell.cs" t="Include" />
+                    <e p="FancyScrollRectContext.cs" t="Include" />
+                    <e p="IFancyScrollRectContext.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="ProjectSettings" t="Include">
+            <e p="ProjectVersion.txt" t="Include" />
           </e>
         </e>
         <e p="NotesInfo" t="Include">
@@ -1392,16 +1680,24 @@
             <e p="CameraManager" t="Include">
               <e p="SetSameField.cs" t="Include" />
             </e>
+            <e p="ComboManager" t="Include">
+              <e p="Combo.cs" t="Include" />
+              <e p="ComboManager.cs" t="Include" />
+            </e>
             <e p="Config.cs" t="Include" />
             <e p="InputValue.cs" t="Include" />
             <e p="MusicManager" t="Include">
               <e p="MusicManager.cs" t="Include" />
               <e p="MusicSelect.cs" t="Include" />
             </e>
+            <e p="ScoreManager" t="Include">
+              <e p="Score.cs" t="Include" />
+              <e p="ScoreManager.cs" t="Include" />
+            </e>
             <e p="ViewSettings.cs" t="Include" />
           </e>
           <e p="MonoInstaller" t="Include">
-            <e p="MusicManagerMonoInstaller.cs" t="Include" />
+            <e p="ManagerMonoInstaller.cs" t="Include" />
           </e>
           <e p="Note" t="Include">
             <e p="NormalNote.cs" t="Include" />
@@ -1414,9 +1710,9 @@
           </e>
           <e p="NoteManager" t="Include">
             <e p="NoteFactory" t="Include">
+              <e p="DebugNoteFactory.cs" t="Include" />
               <e p="INoteFactory.cs" t="Include" />
               <e p="NormalNoteFactory.cs" t="Include" />
-              <e p="PoolingNoteFactory.cs" t="Include" />
             </e>
             <e p="NoteManager" t="Include">
               <e p="DebugNoteManager.cs" t="Include" />
@@ -1427,7 +1723,9 @@
           <e p="NotesEditor" t="Include">
             <e p="BaseMusicData.cs" t="Include" />
             <e p="music1Data.cs" t="Include" />
+            <e p="musiccontroller.cs" t="Include" />
             <e p="SetNotesInfo.cs" t="Include" />
+            <e p="SliderMusic.cs" t="Include" />
             <e p="testEditor.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
@@ -1442,6 +1740,10 @@
             <e p="PlayerSEPlayer.cs" t="Include" />
             <e p="PlayerShooter.cs" t="Include" />
             <e p="PlayerViewMove.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="ComboText.cs" t="Include" />
+            <e p="ScoreText.cs" t="Include" />
           </e>
         </e>
         <e p="SDF_BasicTrainingStage" t="Include">
@@ -1627,13 +1929,170 @@
                 <e p="Waveform.compute" t="Include" />
                 <e p="Waveform.shader" t="Include" />
               </e>
+              <e p="Editor" t="Include">
+                <e p="ConvertToLog.shader" t="Include" />
+                <e p="CurveGrid.shader" t="Include" />
+                <e p="Trackball.shader" t="Include" />
+              </e>
               <e p="Sampling.hlsl" t="Include" />
               <e p="StdLib.hlsl" t="Include" />
               <e p="xRLib.hlsl" t="Include" />
             </e>
           </e>
         </e>
+        <e p="StarlinkUI" t="Include">
+          <e p="Art" t="Include">
+            <e p="Starfield.shader" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="Caps.txt" t="Include" />
+            <e p="English.txt" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Custom" t="Include">
+              <e p="Misc" t="Include">
+                <e p="GameManager.cs" t="Include" />
+                <e p="PlayerProfile.cs" t="Include" />
+              </e>
+              <e p="UI" t="Include">
+                <e p="UIAddExperience.cs" t="Include" />
+                <e p="UIExitButton.cs" t="Include" />
+                <e p="UIGameChat.cs" t="Include" />
+                <e p="UIGameTime.cs" t="Include" />
+                <e p="UINameField.cs" t="Include" />
+                <e p="UIOptionCaps.cs" t="Include" />
+                <e p="UIOptionHints.cs" t="Include" />
+                <e p="UIOptionInfo.cs" t="Include" />
+                <e p="UIOptionPower.cs" t="Include" />
+                <e p="UIOptionUpgrade.cs" t="Include" />
+                <e p="UIOptionWifi.cs" t="Include" />
+                <e p="UIPauseButton.cs" t="Include" />
+                <e p="UIPlayButton.cs" t="Include" />
+                <e p="UIPlayerExperience.cs" t="Include" />
+                <e p="UIPlayerList.cs" t="Include" />
+                <e p="UIPlayerName.cs" t="Include" />
+                <e p="UIPlayersSelection.cs" t="Include" />
+                <e p="UIProfileButton.cs" t="Include" />
+                <e p="UIRankings.cs" t="Include" />
+                <e p="UIRemoveExperience.cs" t="Include" />
+                <e p="UIScoreRow.cs" t="Include" />
+                <e p="UIShowIfNotFullVersion.cs" t="Include" />
+                <e p="UIUpgradeButton.cs" t="Include" />
+                <e p="UIUpgradeWindow.cs" t="Include" />
+                <e p="UIWifiRequired.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Generic" t="Include">
+              <e p="Misc" t="Include">
+                <e p="ClearEventMask.cs" t="Include" />
+                <e p="GameAudio.cs" t="Include" />
+                <e p="GameWebRequest.cs" t="Include" />
+                <e p="Music.cs" t="Include" />
+                <e p="RandomGenerator.cs" t="Include" />
+                <e p="SavedData.cs" t="Include" />
+                <e p="SetActiveProperty.cs" t="Include" />
+              </e>
+              <e p="UI" t="Include">
+                <e p="UIButtonComponent.cs" t="Include" />
+                <e p="UIChat.cs" t="Include" />
+                <e p="UIFPS.cs" t="Include" />
+                <e p="UIFullScreen.cs" t="Include" />
+                <e p="UILimitedSavedOption.cs" t="Include" />
+                <e p="UIMessageBox.cs" t="Include" />
+                <e p="UIMusicVolume.cs" t="Include" />
+                <e p="UINews.cs" t="Include" />
+                <e p="UIResetInput.cs" t="Include" />
+                <e p="UIStatus.cs" t="Include" />
+                <e p="UIVersion.cs" t="Include" />
+                <e p="UIWindow.cs" t="Include" />
+                <e p="UIWindowButton.cs" t="Include" />
+                <e p="UIWindowSelector.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="UI" t="Include">
+            <e p="Arimo20.txt" t="Include" />
+            <e p="Large.txt" t="Include" />
+            <e p="Medium.txt" t="Include" />
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Examples &amp; Extras" t="Include">
+            <e p="Fonts" t="Include">
+              <e p="Anton OFL.txt" t="Include" />
+              <e p="Bangers - OFL.txt" t="Include" />
+              <e p="Oswald-Bold - OFL.txt" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="Benchmark01.cs" t="Include" />
+              <e p="Benchmark01_UGUI.cs" t="Include" />
+              <e p="Benchmark02.cs" t="Include" />
+              <e p="Benchmark03.cs" t="Include" />
+              <e p="Benchmark04.cs" t="Include" />
+              <e p="CameraController.cs" t="Include" />
+              <e p="ChatController.cs" t="Include" />
+              <e p="DropdownSample.cs" t="Include" />
+              <e p="EnvMapAnimator.cs" t="Include" />
+              <e p="ObjectSpin.cs" t="Include" />
+              <e p="ShaderPropAnimator.cs" t="Include" />
+              <e p="SimpleScript.cs" t="Include" />
+              <e p="SkewTextExample.cs" t="Include" />
+              <e p="TeleType.cs" t="Include" />
+              <e p="TextConsoleSimulator.cs" t="Include" />
+              <e p="TextMeshProFloatingText.cs" t="Include" />
+              <e p="TextMeshSpawner.cs" t="Include" />
+              <e p="TMP_DigitValidator.cs" t="Include" />
+              <e p="TMP_ExampleScript_01.cs" t="Include" />
+              <e p="TMP_FrameRateCounter.cs" t="Include" />
+              <e p="TMP_PhoneNumberValidator.cs" t="Include" />
+              <e p="TMP_TextEventCheck.cs" t="Include" />
+              <e p="TMP_TextEventHandler.cs" t="Include" />
+              <e p="TMP_TextInfoDebugTool.cs" t="Include" />
+              <e p="TMP_TextSelector_A.cs" t="Include" />
+              <e p="TMP_TextSelector_B.cs" t="Include" />
+              <e p="TMP_UiFrameRateCounter.cs" t="Include" />
+              <e p="TMPro_InstructionOverlay.cs" t="Include" />
+              <e p="VertexColorCycler.cs" t="Include" />
+              <e p="VertexJitter.cs" t="Include" />
+              <e p="VertexShakeA.cs" t="Include" />
+              <e p="VertexShakeB.cs" t="Include" />
+              <e p="VertexZoom.cs" t="Include" />
+              <e p="WarpTextExample.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
       </e>
+      <e p="FancyScrollView.csproj" t="IncludeRecursive" />
+      <e p="FancyScrollView.Editor.csproj" t="IncludeRecursive" />
       <e p="hatosai2021.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
