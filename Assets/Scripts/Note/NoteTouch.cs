@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using GameManager.EvalUIManager;
 using UnityEngine;
 using Zenject;
 
 public class NoteTouch : MonoBehaviour,IApplyTouch
 {
+    [Inject] private EvalUIManager _evalUiManager;
     [Inject] private ScoreManager _scoreManager; 
     private Note note;
     // Start is called before the first frame update
@@ -22,13 +24,14 @@ public class NoteTouch : MonoBehaviour,IApplyTouch
     public void ApplyTouch()
     {
         AddScore();
-       gameObject.SetActive(false);
+        gameObject.SetActive(false);
     }
 
     void AddScore()
     {
         NoteEval noteEval = ScoreJudge();
         Debug.Log(noteEval);
+        _evalUiManager.StartAnim(transform.position,noteEval);
         _scoreManager.AddScore(noteEval);
     }
 

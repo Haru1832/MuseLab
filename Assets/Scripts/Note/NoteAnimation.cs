@@ -10,6 +10,8 @@ using UniRx.Triggers;
 
 public class NoteAnimation : MonoBehaviour
 {
+    [Inject] private ScoreManager _scoreManager;
+    
     private MusicManager _manager;
 
     private Note _note;
@@ -92,6 +94,8 @@ public class NoteAnimation : MonoBehaviour
 
     void Activefalse()
     {
+        if(gameObject.activeSelf)
+            _scoreManager.AddScore(NoteEval.Bad);
         gameObject.SetActive(false);
     }
 }
