@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using GameManager.EvalUIManager;
 using UnityEngine;
 using Zenject;
 
@@ -25,6 +26,10 @@ public class ManagerMonoInstaller : MonoInstaller
             .NonLazy();
         Container.Bind<ComboManager>()
             .FromComponentInNewPrefabResource("Manager/ComboManager")
+            .AsSingle()
+            .NonLazy();
+        Container.Bind<EvalUIManager>()
+            .FromComponentInNewPrefabResource("Manager/EvalUIManager")
             .AsSingle()
             .NonLazy();
     }

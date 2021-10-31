@@ -1685,6 +1685,9 @@
               <e p="ComboManager.cs" t="Include" />
             </e>
             <e p="Config.cs" t="Include" />
+            <e p="EvalUIManager" t="Include">
+              <e p="EValUIManager.cs" t="Include" />
+            </e>
             <e p="InputValue.cs" t="Include" />
             <e p="MusicManager" t="Include">
               <e p="MusicManager.cs" t="Include" />
