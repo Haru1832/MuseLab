@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using GameManager.MySceneManager;
 using GameManager.SceneManager;
 using UniRx;
 using UnityEngine;

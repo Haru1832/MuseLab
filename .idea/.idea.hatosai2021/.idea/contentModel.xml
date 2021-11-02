@@ -1676,7 +1676,7 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="GameManager" t="Include">
+          <e p="Manager" t="Include">
             <e p="CameraManager" t="Include">
               <e p="SetSameField.cs" t="Include" />
             </e>
@@ -1694,7 +1694,7 @@
               <e p="MusicManager.cs" t="Include" />
               <e p="MusicSelect.cs" t="Include" />
             </e>
-            <e p="SceneManager" t="Include">
+            <e p="MySceneManager" t="Include">
               <e p="ISceneManager.cs" t="Include" />
               <e p="MySceneManager.cs" t="Include" />
               <e p="TransitionButton.cs" t="Include" />
@@ -1707,7 +1707,6 @@
           </e>
           <e p="MonoInstaller" t="Include">
             <e p="ManagerMonoInstaller.cs" t="Include" />
-            <e p="SceneMonoInstaller.cs" t="Include" />
           </e>
           <e p="Note" t="Include">
             <e p="NormalNote.cs" t="Include" />

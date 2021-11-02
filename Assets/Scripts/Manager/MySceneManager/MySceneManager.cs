@@ -5,15 +5,13 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Zenject;
 
-namespace GameManager.SceneManager
+namespace GameManager.MySceneManager
 {
     public class MySceneManager : MonoBehaviour,ISceneManager
     {
         [SerializeField]
         private String targetSceneName;
-
-        [Inject]
-        ZenjectSceneLoader sceneLoader;
+        
         // Start is called before the first frame update
 
         // Update is called once per frame
@@ -26,12 +24,23 @@ namespace GameManager.SceneManager
         {
             Debug.Log("Load scene: " + targetSceneName);
 
-            sceneLoader.LoadScene("Scenes/" + targetSceneName, LoadSceneMode.Single, 
-                (diContainer) => { diContainer.BindInstance(MusicName).WithId("MusicName"); });
+            SceneManager.sceneLoaded += GameSceneLoaded;
+
+            SceneManager.LoadScene(targetSceneName);
 
             Debug.Log("Load scene done");
         }
+        
+        private void GameSceneLoaded(Scene next, LoadSceneMode mode){
+
+            // イベントから削除
+            SceneManager.sceneLoaded -= GameSceneLoaded;
+        }
+        
+        
     }
+
+
 
     public class SceneParameter
     {
@@ -43,6 +52,6 @@ namespace GameManager.SceneManager
         {
             this.MusicName = musicName;
         }
-
+        
     }
 }
