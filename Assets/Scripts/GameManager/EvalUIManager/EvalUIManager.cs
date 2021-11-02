@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Threading;
+using System.Threading.Tasks;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using TMPro;
@@ -14,51 +16,28 @@ namespace GameManager.EvalUIManager
     public class EvalUIManager : MonoBehaviour
     {
         [SerializeField]
-        private TextMeshProUGUI[] evalTexts;
+        private EvalUITexts[] evalTexts;
 
-        private List<RectTransform> evalRects;
-    
         private Sequence sequence;
         private bool _isAnimating;
-
-        private RectTransform _transform;
-        private TextMeshProUGUI _text;
-        private RectTransform _canvasTransform;
+        
+        CancellationToken _token;
 
         private Camera _camera;
 
         private void Awake()
         {
-            _canvasTransform = GetComponent<RectTransform>();
-            evalRects = new List<RectTransform>();
+            _token = this.GetCancellationTokenOnDestroy();
             _camera = Camera.main;
             
         }
 
-        // Start is called before the first frame update
-        void Start()
-        {
-
-            //TextAnim();
-            foreach (var text in evalTexts)
-            {
-                evalRects.Add( text.gameObject.GetComponent<RectTransform>());
-            }
-            
-            _transform = evalRects[0];
-            _text = evalTexts[0];
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-        
-        }
 
         public void StartAnim(Vector3 vec,NoteEval eval)
         {
-            _transform = evalRects[(int) eval];
-            _text = evalTexts[(int) eval];
+            
+            var _text = evalTexts[(int) eval].GetUseableText();
+            var _transform = _text.gameObject.GetComponent<RectTransform>();
             
             _text.gameObject.SetActive(true);
             
@@ -70,48 +49,24 @@ namespace GameManager.EvalUIManager
                 .Subscribe(_ =>
                 {
                     Vector2 vec2 = RectTransformUtility.WorldToScreenPoint(_camera, vec);
-                    // var screenPos =RectTransformUtility.WorldToScreenPoint(null,vec);
-                    // RectTransformUtility.ScreenPointToLocalPointInRectangle(_canvasTransform,screenPos,null,out var vec2);
                     _transform.position = vec2;
                 });
             
-            TextAnim();
-            //sequence.Restart();
+            TextAnim(_transform,_text,_token).Forget();
         }
 
-        // private RectTransform GetTextEval(NoteEval noteEval)
-        // {
-        //     switch (noteEval)
-        //     {
-        //         case NoteEval.Bad: return evalRects[0];
-        //         case NoteEval.Good: return evalRects[1];
-        //         case NoteEval.Great: return evalRects[2];
-        //         case NoteEval.Perfect: return evalRects[3];
-        //         default: return null;
-        //     }
-        // }
-
-        private async UniTaskVoid TextAnim()
+        private async UniTaskVoid TextAnim(RectTransform _transform,TextMeshProUGUI _text, CancellationToken token)
         {
             _transform.localScale = new Vector3(0.5f,0.5f,0.5f);
             _transform.DOScale(0.7f, 0.5f).SetEase(Ease.OutElastic);
             _text.DOFade(1, 0.25f);
-            await UniTask.Delay(TimeSpan.FromSeconds(0.25f));
-            _text.DOFade(0, 0.25f).OnComplete(AnimateFalse);
+            await UniTask.Delay(TimeSpan.FromSeconds(0.25f), cancellationToken: token);
+            _text.DOFade(0, 0.25f).OnComplete((() =>
+            {
+                _isAnimating = false;
+                _text.gameObject.SetActive(false);
+            }));
 
-            // sequence = DOTween.Sequence()
-            //     .Append(_transform.DOScale(1.5f, 0.5f).SetEase(Ease.OutElastic))
-            //     .Join(_text.DOFade(0,0.5f))
-            //     .Pause()
-            //     .SetAutoKill(false)
-            //     .OnComplete(AnimateFalse)
-            //     .SetLink(gameObject);
-
-        }
-
-        private void AnimateFalse()
-        {
-            _isAnimating = false;
         }
     }
 }

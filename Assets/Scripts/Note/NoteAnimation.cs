@@ -5,11 +5,13 @@ using Cysharp.Threading.Tasks;
 using UnityEngine;
 using Zenject;
 using DG.Tweening;
+using GameManager.EvalUIManager;
 using UniRx;
 using UniRx.Triggers;
 
 public class NoteAnimation : MonoBehaviour
 {
+    [Inject] private EvalUIManager _evalUiManager;
     [Inject] private ScoreManager _scoreManager;
     
     private MusicManager _manager;
@@ -94,8 +96,12 @@ public class NoteAnimation : MonoBehaviour
 
     void Activefalse()
     {
-        if(gameObject.activeSelf)
+        if (gameObject.activeSelf)
+        {
             _scoreManager.AddScore(NoteEval.Bad);
+            _evalUiManager.StartAnim(this.transform.position,NoteEval.Bad);
+        }
+
         gameObject.SetActive(false);
     }
 }
