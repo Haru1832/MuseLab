@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using GameManager.EvalUIManager;
+using GameManager.ScoreManager;
 using UnityEngine;
 using Zenject;
 

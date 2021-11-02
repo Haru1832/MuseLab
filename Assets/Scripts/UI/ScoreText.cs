@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using GameManager.ScoreManager;
 using UniRx;
 using UniRx.Triggers;
 using UnityEngine;

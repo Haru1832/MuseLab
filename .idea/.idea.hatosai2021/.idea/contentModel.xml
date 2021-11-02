@@ -1694,6 +1694,11 @@
               <e p="MusicManager.cs" t="Include" />
               <e p="MusicSelect.cs" t="Include" />
             </e>
+            <e p="SceneManager" t="Include">
+              <e p="ISceneManager.cs" t="Include" />
+              <e p="MySceneManager.cs" t="Include" />
+              <e p="TransitionButton.cs" t="Include" />
+            </e>
             <e p="ScoreManager" t="Include">
               <e p="Score.cs" t="Include" />
               <e p="ScoreManager.cs" t="Include" />
@@ -1702,6 +1707,7 @@
           </e>
           <e p="MonoInstaller" t="Include">
             <e p="ManagerMonoInstaller.cs" t="Include" />
+            <e p="SceneMonoInstaller.cs" t="Include" />
           </e>
           <e p="Note" t="Include">
             <e p="NormalNote.cs" t="Include" />

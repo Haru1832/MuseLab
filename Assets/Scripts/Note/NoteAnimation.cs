@@ -6,6 +6,7 @@ using UnityEngine;
 using Zenject;
 using DG.Tweening;
 using GameManager.EvalUIManager;
+using GameManager.ScoreManager;
 using UniRx;
 using UniRx.Triggers;
 
