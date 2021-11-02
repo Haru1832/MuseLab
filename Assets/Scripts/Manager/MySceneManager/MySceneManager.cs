@@ -24,18 +24,15 @@ namespace GameManager.MySceneManager
         {
             Debug.Log("Load scene: " + targetSceneName);
 
-            SceneManager.sceneLoaded += GameSceneLoaded;
-
+            MyGameManager.Instance.MusicName = MusicName;
+            
             SceneManager.LoadScene(targetSceneName);
+
+            
 
             Debug.Log("Load scene done");
         }
         
-        private void GameSceneLoaded(Scene next, LoadSceneMode mode){
-
-            // イベントから削除
-            SceneManager.sceneLoaded -= GameSceneLoaded;
-        }
         
         
     }

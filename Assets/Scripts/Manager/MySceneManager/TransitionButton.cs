@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using GameManager.MySceneManager;
-using GameManager.SceneManager;
+using GameManager.MySceneManager;
 using UniRx;
 using UnityEngine;
 using UnityEngine.UI;

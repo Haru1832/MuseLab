@@ -16,6 +16,7 @@ public class MusicManager : MonoBehaviour
     private AudioClip _audio;
     private void Start()
     {
+        Debug.Log(MyGameManager.Instance.MusicName);
         _audioSource = GetComponent<AudioSource>();
         _audio = (AudioClip)Resources.Load(musicclipfile);
         _audioSource.clip = _audio;

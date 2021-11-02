@@ -14,38 +14,32 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerViewMove.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/INoteFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/NormalNoteFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/MusicManager/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoInstaller/ManagerMonoInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.visualstudio@2.0.2/Editor/VisualStudioEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Util/ZenAutoInjecter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/MusicManager/MusicSelect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/MySceneManager/TransitionButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ScoreText.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/MusicManager/MusicManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/CameraManager/SetSameField.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/MySceneManager/ISceneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/MySceneManager/MySceneManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerShooter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/ScoreManager/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/ScoreManager/Score.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/DebugNoteFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/IApplyTouch.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/InputValue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Input/IPlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/EvalUIManager/EvalUITexts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Input/KeyBoardInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ComboText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NotesEditor/SetNotesInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/MySceneManager/MySceneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/MyGameManager/MyGameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8645A79-B079-4E0E-9A2B-5BBFF081B88A/70/347560ca/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/MyGameManager/IGameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FancyScrollView-master/Assets/FancyScrollView/Examples/Sources/Common/ScenesDropdown.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/ComboManager/Combo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/ViewSettings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/ComboManager/ComboManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Capture-tducc/Assets/App/Scripts/Game/Players/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/NotesInfo/JsonNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/Config.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Main/DiContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/MyGameManager/SingletonMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Internal/Assert.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/Kernels/ProjectKernel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager/EvalUIManager/EvalUIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FancyScrollView-master/Assets/FancyScrollView/Examples/Sources/03_InfiniteScroll/ItemData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FancyScrollView-master/Assets/FancyScrollView/Examples/Sources/03_InfiniteScroll/Cell.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NotesEditor/music1Data.cs" root0="FORCE_HIGHLIGHTING" />
@@ -64,13 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerShooter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/NoteManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/DebugNoteManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager/MusicManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Resources/json/sample.json" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NotesEditor/BaseMusicData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NotesEditor/testEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/INoteFactory.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/PoolingNoteFactory.cs" />
@@ -115,6 +102,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager/SceneManager/MySceneManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager/MySceneManager/MySceneManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager/MusicManager/MusicManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MySceneManager/ISceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MySceneManager/TransitionButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MyGameManager/IGameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MyGameManager/SingletonMonoBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MySceneManager/MySceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MyGameManager/MyGameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MusicManager/MusicManager.cs" />
       </list>
     </option>
   </component>
