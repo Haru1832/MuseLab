@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentTime: 3
-  isPlaying: 1
+  isPlaying: 0
 --- !u!82 &1504262203981039094
 AudioSource:
   m_ObjectHideFlags: 0
