@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using DG.Tweening;
 using GameManager.ScoreManager;
+using TMPro;
 using UniRx;
 using UniRx.Triggers;
 using UnityEngine;
@@ -14,7 +15,7 @@ public class ScoreText : MonoBehaviour
     private ScoreManager _scoreManager;
 
     [SerializeField]
-    private Text scoreText;
+    private TextMeshProUGUI scoreText;
     
     [SerializeField]
     private GameObject addScoreObj;
@@ -26,6 +27,8 @@ public class ScoreText : MonoBehaviour
     private Sequence sequence;
 
     private int addScore;
+
+    private Tween tween;
 
     [SerializeField] private RectTransform[] animPos;
     
@@ -47,7 +50,7 @@ public class ScoreText : MonoBehaviour
         TextAnim();
         
         this.ObserveEveryValueChanged(x => x._scoreManager.GetScore())
-            .Subscribe(x => scoreText.text = x.ToString("D8"))
+            .Subscribe(UpdateScore)
             .AddTo(this);
         
         this.ObserveEveryValueChanged(x => x._scoreManager.GetIsAddScore())
@@ -76,6 +79,14 @@ public class ScoreText : MonoBehaviour
         .SetAutoKill(false)
         .SetLink(gameObject);
         
+    }
+    
+    public void UpdateScore(int resultScore)
+    {
+        int currentScore = resultScore - _scoreManager.GetAddScore();
+        DOTween.Kill(tween);
+        tween = DOTween.To(() => currentScore, value => currentScore = value, resultScore, 1f)
+            .OnUpdate(() => scoreText.text = string.Format($" {currentScore:D8}"));
     }
     
 

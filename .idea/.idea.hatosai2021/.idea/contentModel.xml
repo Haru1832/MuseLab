@@ -171,6 +171,20 @@
           <e p="license_unity.txt" t="Include" />
           <e p="ReadMe.txt" t="Include" />
         </e>
+        <e p="52SpecialEffectPack" t="Include">
+          <e p="Animation&amp;Script" t="Include">
+            <e p="csAnimationSpin.cs" t="Include" />
+            <e p="csDestroyEffect.cs" t="Include" />
+            <e p="csMouseOrbit.cs" t="Include" />
+            <e p="csParticleMove.cs" t="Include" />
+          </e>
+          <e p="EffectEditor" t="Include">
+            <e p="ShurikenEffectEditor" t="Include">
+              <e p="csShurikenEffectChanger.cs" t="Include" />
+              <e p="csShurikenEffectEditor.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Demigiant" t="Include">
           <e p="DOTween" t="Include">
             <e p="Modules" t="Include">
@@ -1701,12 +1715,18 @@
             </e>
             <e p="MySceneManager" t="Include">
               <e p="ISceneManager.cs" t="Include" />
+              <e p="LoadSceneManager.cs" t="Include" />
               <e p="MySceneManager.cs" t="Include" />
+              <e p="ReLoadScene.cs" t="Include" />
+              <e p="SimpleLoadScene.cs" t="Include" />
               <e p="TransitionButton.cs" t="Include" />
             </e>
             <e p="ScoreManager" t="Include">
               <e p="Score.cs" t="Include" />
               <e p="ScoreManager.cs" t="Include" />
+            </e>
+            <e p="SEManager" t="Include">
+              <e p="SEManager.cs" t="Include" />
             </e>
             <e p="ViewSettings.cs" t="Include" />
           </e>
@@ -1738,9 +1758,11 @@
             <e p="BaseMusicData.cs" t="Include" />
             <e p="music1Data.cs" t="Include" />
             <e p="musiccontroller.cs" t="Include" />
+            <e p="PutTimingButton.cs" t="Include" />
             <e p="SetNotesInfo.cs" t="Include" />
             <e p="SliderMusic.cs" t="Include" />
             <e p="testEditor.cs" t="Include" />
+            <e p="TimingEditor.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
             <e p="IApplyTouch.cs" t="Include" />
@@ -1755,9 +1777,15 @@
             <e p="PlayerShooter.cs" t="Include" />
             <e p="PlayerViewMove.cs" t="Include" />
           </e>
+          <e p="StartPanel" t="Include">
+            <e p="StartPanel.cs" t="Include" />
+          </e>
           <e p="UI" t="Include">
             <e p="ComboText.cs" t="Include" />
             <e p="ScoreText.cs" t="Include" />
+          </e>
+          <e p="Video" t="Include">
+            <e p="VideoMusic.cs" t="Include" />
           </e>
         </e>
         <e p="SDF_BasicTrainingStage" t="Include">

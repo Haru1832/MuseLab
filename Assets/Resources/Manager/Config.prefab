@@ -170,6 +170,7 @@ GameObject:
   - component: {fileID: 3864837191886398852}
   - component: {fileID: 3864837191886398851}
   - component: {fileID: 3864837191886398850}
+  - component: {fileID: 6153051507464654457}
   m_Layer: 5
   m_Name: Retry
   m_TagString: Untagged
@@ -277,7 +278,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3864837191886398851}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6153051507464654457}
+        m_TargetAssemblyTypeName: ReloadScene, Assembly-CSharp
+        m_MethodName: Reload_Scene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6153051507464654457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3864837191886398848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38b26fd7d120beb49a65f12a6b978a32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3864837191898972744
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,7 +376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}

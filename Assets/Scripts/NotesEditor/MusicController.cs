@@ -15,7 +15,7 @@ public class MusicController : MonoBehaviour
     {
         Source = GetComponent<AudioSource>();
         this.UpdateAsObservable()
-            .Where(_ => Input.GetKeyDown(KeyCode.Space))
+            .Where(_ => Input.GetKeyDown(KeyCode.G))
             .Subscribe(_ =>
             {
                 if (Source.isPlaying)

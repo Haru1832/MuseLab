@@ -7,8 +7,11 @@ using Zenject;
 
 public class NoteTouch : MonoBehaviour,IApplyTouch
 {
+    [Inject] private SEManager _SEmanager;
     [Inject] private EvalUIManager _evalUiManager;
-    [Inject] private ScoreManager _scoreManager; 
+    [Inject] private ScoreManager _scoreManager;
+    
+    [SerializeField] private GameObject effect;
     private Note note;
     // Start is called before the first frame update
     void Start()
@@ -25,6 +28,8 @@ public class NoteTouch : MonoBehaviour,IApplyTouch
     public void ApplyTouch()
     {
         AddScore();
+        Instantiate(effect, gameObject.transform.position, Quaternion.identity);
+        _SEmanager.Play();
         gameObject.SetActive(false);
     }
 

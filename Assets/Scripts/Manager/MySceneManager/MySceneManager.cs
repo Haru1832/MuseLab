@@ -9,27 +9,23 @@ namespace GameManager.MySceneManager
 {
     public class MySceneManager : MonoBehaviour,ISceneManager
     {
-        [SerializeField]
-        private String targetSceneName;
-        
+        private String LoadSceneName = "Load";
         // Start is called before the first frame update
-
-        // Update is called once per frame
-        void Update()
-        {
         
-        }
     
-        public void TransitionScene(String MusicName)
+        public void TransitionGameScene(String MusicName)
         {
-            Debug.Log("Load scene: " + targetSceneName);
 
             MyGameManager.Instance.MusicName = MusicName;
             
-            SceneManager.LoadScene(targetSceneName);
+            SceneManager.LoadScene(LoadSceneName);
+        }
+        public void TransitionScene(String _targetSceneName)
+        {
+            Debug.Log("Load scene: " + _targetSceneName);
 
+            SceneManager.LoadScene(_targetSceneName);
             
-
             Debug.Log("Load scene done");
         }
         

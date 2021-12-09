@@ -52,8 +52,8 @@ public class ComboText : MonoBehaviour
     {
 
         sequence = DOTween.Sequence()
-            .Append(_transform.DOScale(1.5f, 0.5f).SetEase(Ease.OutElastic))
-            .Join(_Backtransform.DOScale(2f, 0.5f).SetEase(Ease.OutElastic))
+            .Append(_transform.DOScale(1.8f, 0.5f).SetEase(Ease.OutElastic))
+            .Join(_Backtransform.DOScale(2.4f, 0.5f).SetEase(Ease.OutElastic))
             .Join(comboBackText.DOFade(0,0.5f))
             .Pause()
             .SetAutoKill(false)

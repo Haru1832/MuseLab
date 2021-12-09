@@ -33,5 +33,10 @@ public class ManagerMonoInstaller : MonoInstaller
             .FromComponentInNewPrefabResource("Manager/EvalUIManager")
             .AsSingle()
             .NonLazy();
+        
+        Container.Bind<SEManager>()
+            .FromComponentInNewPrefabResource("Manager/SEManager")
+            .AsSingle()
+            .NonLazy();
     }
 }

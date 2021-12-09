@@ -50,7 +50,6 @@ namespace FancyScrollView.Example03
             {
                 return;
             }
-
             UpdateSelection(index);
             scroller.ScrollTo(index, 0.35f, Ease.OutCubic);
         }

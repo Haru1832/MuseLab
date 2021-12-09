@@ -40,7 +40,7 @@ public class DebugNoteFactory : MonoBehaviour,INoteFactory
             if ( VARIABLE.Offset - _controller.Source.time  <= _animTime)
             {
                 
-                Debug.Log(_controller.Source.time);
+                //Debug.Log(_controller.Source.time);
                 if (!_data.notes[VARIABLE.NoteNumber - 1].activeSelf)
                 {
                     GameObject noteObj = _data.notes[VARIABLE.NoteNumber - 1];

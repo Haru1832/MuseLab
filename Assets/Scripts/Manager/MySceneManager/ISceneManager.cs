@@ -6,5 +6,5 @@ using UnityEngine;
 
 public interface ISceneManager
 {
-    void TransitionScene(String MusicName);
+    void TransitionScene(String SceneName);
 }
