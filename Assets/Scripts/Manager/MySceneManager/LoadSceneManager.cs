@@ -23,13 +23,7 @@ public class LoadSceneManager : MonoBehaviour
         yield return new WaitForSeconds(1f);
         asyncLoad = SceneManager.LoadSceneAsync("Game");     // 次のシーンの非同期ロード開始
         asyncLoad.allowSceneActivation = false; // シーン遷移無効化
-
-        // this.ObserveEveryValueChanged(x => x.asyncLoad.progress)
-        //     .Subscribe(x =>
-        //     {
-        //        
-        //     })
-        //     .AddTo(this);
+        
         
         DOTween.To(
             () => _slider.value,
@@ -44,22 +38,11 @@ public class LoadSceneManager : MonoBehaviour
             yield return new WaitForSeconds(5f);
         }
         asyncLoad.allowSceneActivation = true;   
-
-        //DisplayNext();                                  // ロード完了したら次の画面を表示
+        
     }
 
     private void SceneTransition()
     {
         asyncLoad.allowSceneActivation = true;          // シーン遷移有効化
-    }
-
-    private void DisplayLoading()
-    {
-        // ロード画面の描画
-    }
-
-    private void DisplayNext()
-    {
-        // ロード完了後画面の描画
     }
 }

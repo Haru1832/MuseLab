@@ -172,12 +172,6 @@
           <e p="ReadMe.txt" t="Include" />
         </e>
         <e p="52SpecialEffectPack" t="Include">
-          <e p="Animation&amp;Script" t="Include">
-            <e p="csAnimationSpin.cs" t="Include" />
-            <e p="csDestroyEffect.cs" t="Include" />
-            <e p="csMouseOrbit.cs" t="Include" />
-            <e p="csParticleMove.cs" t="Include" />
-          </e>
           <e p="EffectEditor" t="Include">
             <e p="ShurikenEffectEditor" t="Include">
               <e p="csShurikenEffectChanger.cs" t="Include" />
@@ -1703,6 +1697,7 @@
               <e p="EValUIManager.cs" t="Include" />
               <e p="EvalUITexts.cs" t="Include" />
             </e>
+            <e p="Init.cs" t="Include" />
             <e p="InputValue.cs" t="Include" />
             <e p="MusicManager" t="Include">
               <e p="MusicManager.cs" t="Include" />
@@ -1718,6 +1713,8 @@
               <e p="LoadSceneManager.cs" t="Include" />
               <e p="MySceneManager.cs" t="Include" />
               <e p="ReLoadScene.cs" t="Include" />
+              <e p="ResetSingleton.cs" t="Include" />
+              <e p="ResultTransition.cs" t="Include" />
               <e p="SimpleLoadScene.cs" t="Include" />
               <e p="TransitionButton.cs" t="Include" />
             </e>
@@ -1764,6 +1761,9 @@
             <e p="testEditor.cs" t="Include" />
             <e p="TimingEditor.cs" t="Include" />
           </e>
+          <e p="Other" t="Include">
+            <e p="UnlockMouse.cs" t="Include" />
+          </e>
           <e p="Player" t="Include">
             <e p="IApplyTouch.cs" t="Include" />
             <e p="Input" t="Include">
@@ -1782,6 +1782,10 @@
           </e>
           <e p="UI" t="Include">
             <e p="ComboText.cs" t="Include" />
+            <e p="Result" t="Include">
+              <e p="ResultComboText.cs" t="Include" />
+              <e p="ResultScoreText.cs" t="Include" />
+            </e>
             <e p="ScoreText.cs" t="Include" />
           </e>
           <e p="Video" t="Include">

@@ -17,7 +17,7 @@ public class MusicManager : MonoBehaviour
     private CancellationToken _token;
     
     private String musicclipfile = "Music/phony";
-    private AudioSource _audioSource;
+    public AudioSource _audioSource;
     private AudioClip _audio;
     private void Start()
     {

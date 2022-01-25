@@ -12,7 +12,7 @@ using UniRx.Triggers;
 
 public class NoteAnimation : MonoBehaviour
 {
-    [Inject] private EvalUIManager _evalUiManager;
+    private EvalUIManager _evalUiManager;
     [Inject] private ScoreManager _scoreManager;
     
     private MusicManager _manager;
@@ -40,7 +40,7 @@ public class NoteAnimation : MonoBehaviour
     void Start()
     {
         _note = GetComponent<Note>();
-        
+        _evalUiManager = GameObject.Find("EvalUIManager").GetComponent<EvalUIManager>();
         token = this.GetCancellationTokenOnDestroy();
         _transform = sphereObj.transform;
         _transform.localScale = Vector3.zero;

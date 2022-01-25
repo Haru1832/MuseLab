@@ -20,4 +20,9 @@ public class ComboManager : MonoBehaviour
     {
         return combo.combo;
     }
+    
+    public int GetMaxCombo()
+    {
+        return combo.maxCombo;
+    }
 }

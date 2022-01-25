@@ -9,7 +9,6 @@ namespace GameManager.ScoreManager
 
         [Inject] private ComboManager _comboManager;
         private Score score = new Score();
-    
 
         public void AddScore(NoteEval noteEval)
         {

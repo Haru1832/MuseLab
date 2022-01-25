@@ -8,7 +8,7 @@ using Zenject;
 public class NoteTouch : MonoBehaviour,IApplyTouch
 {
     [Inject] private SEManager _SEmanager;
-    [Inject] private EvalUIManager _evalUiManager;
+    private EvalUIManager _evalUiManager;
     [Inject] private ScoreManager _scoreManager;
     
     [SerializeField] private GameObject effect;
@@ -16,6 +16,7 @@ public class NoteTouch : MonoBehaviour,IApplyTouch
     // Start is called before the first frame update
     void Start()
     {
+        _evalUiManager = GameObject.Find("EvalUIManager").GetComponent<EvalUIManager>();
         note = GetComponent<Note>();
     }
 
