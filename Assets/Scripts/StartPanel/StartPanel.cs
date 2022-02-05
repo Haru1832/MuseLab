@@ -24,7 +24,6 @@ public class StartPanel : MonoBehaviour
     
     [SerializeField]
     private List<TextMeshProUGUI> proTexts;
-    
 
     private void Awake()
     {
@@ -59,6 +58,7 @@ public class StartPanel : MonoBehaviour
         }
         await UniTask.Delay(TimeSpan.FromSeconds(fadeOutTime), cancellationToken: token);
         _musicManager.isPlaying = true;
+        _musicManager.OnPlay(_token).Forget();
     }
 
     // Update is called once per frame

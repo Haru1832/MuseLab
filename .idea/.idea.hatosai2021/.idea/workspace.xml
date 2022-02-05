@@ -26,11 +26,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/ScoreManager/ScoreManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Result/ResultScoreText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/MySceneManager/TransitionButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Toon.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/ScoreText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/MySceneManager/ISceneManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/MySceneManager/MySceneManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerShooter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/MySceneManager/ReloadScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Other/ResetScene.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/MySceneManager/LoadSceneManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteFactory/DebugNoteFactory.cs" root0="FORCE_HIGHLIGHTING" />
@@ -45,10 +47,12 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8645A79-B079-4E0E-9A2B-5BBFF081B88A/70/347560ca/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/MyGameManager/IGameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FancyScrollView-master/Assets/FancyScrollView/Sources/Runtime/Core/FancyCell.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/ScoreManager/Score.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/SEManager/SEManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/MySceneManager/ResultTransition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FancyScrollView-master/Assets/FancyScrollView/Examples/Sources/Common/ScenesDropdown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Video/VideoMusic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/26FF2A7B-056A-476B-9736-27DB643EE7D8/06/32813d2a/AudioSource.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Zenject/Source/Runtime/SceneContextRegistry.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../Capture-tducc/Assets/App/Scripts/Game/Players/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NotesEditor/TimingEditor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -67,6 +71,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Other/UnlockMouse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NotesEditor/SliderMusic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NotesEditor/PutTimingButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Note/NoteFloatEval.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/DebugNoteManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/Config.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NoteManager/NoteManager/NormalNoteManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -85,10 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager/ScoreManager/Score.cs" />
-        <option value="$PROJECT_DIR$/Assets/FancyScrollView-master/Assets/FancyScrollView/Examples/Sources/03_InfiniteScroll/ItemData.cs" />
-        <option value="$PROJECT_DIR$/Assets/FancyScrollView-master/Assets/FancyScrollView/Examples/Sources/03_InfiniteScroll/Example03.cs" />
-        <option value="$PROJECT_DIR$/Assets/FancyScrollView-master/Assets/FancyScrollView/Examples/Sources/03_InfiniteScroll/Cell.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager/EvalUIManager/EvalUITexts.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager/EvalUIManager/EvalUIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager/ScoreManager/ScoreManager.cs" />
@@ -107,7 +108,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/ComboText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/ScoreText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Video/VideoMusic.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StartPanel/StartPanel.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Manager/ScoreManager/ReLoadScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MySceneManager/ReLoadScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MySceneManager/ReloadScene1.cs" />
@@ -122,11 +122,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/NotesEditor/MusicController.cs" />
         <option value="$PROJECT_DIR$/Assets/Resources/json/sample.json" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Manager/SEManager/SEManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MySceneManager/LoadSceneManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MusicManager/MusicManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MySceneManager/ResultTransition.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/ComboManager/Combo.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/ComboManager/ComboManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Result/ResultComboText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Result/ResultScoreText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MySceneManager/ResetSingleton.cs" />
@@ -136,6 +132,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Other/UnlockMouse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Manager/Init.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Manager/ScoreManager/ScoreManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Note/NoteFloatEval.cs" />
+        <option value="$PROJECT_DIR$/Assets/Prefabs/Toon.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/ComboManager/Combo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/ScoreManager/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/ComboManager/ComboManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Other/ResetScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MySceneManager/LoadSceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StartPanel/StartPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager/MusicManager/MusicManager.cs" />
       </list>
     </option>
   </component>
@@ -209,6 +214,7 @@
       <workItem from="1638905074263" duration="19669000" />
       <workItem from="1639117696064" duration="3303000" />
       <workItem from="1640250829635" duration="1328000" />
+      <workItem from="1644098790410" duration="3083000" />
     </task>
     <servers />
   </component>
@@ -401,19 +407,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/UI/Result/ResultComboText.cs</url>
-          <line>21</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/UI/Result/ResultComboText.cs" initialLine="20">
-            <startOffsets>
-              <option value="526" />
-            </startOffsets>
-            <endOffsets>
-              <option value="567" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -25,4 +25,9 @@ public class Combo
         maxCombo = combo > maxCombo ? combo : maxCombo;
         combo = 0;
     }
+
+    public void ResetMaxCombo()
+    {
+        maxCombo = 0;
+    }
 }

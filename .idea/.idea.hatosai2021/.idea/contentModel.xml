@@ -1683,6 +1683,9 @@
             <e p="zenject.asmdef" t="Include" />
           </e>
         </e>
+        <e p="Prefabs" t="Include">
+          <e p="Toon.shader" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="Manager" t="Include">
             <e p="CameraManager" t="Include">
@@ -1762,6 +1765,7 @@
             <e p="TimingEditor.cs" t="Include" />
           </e>
           <e p="Other" t="Include">
+            <e p="ResetScene.cs" t="Include" />
             <e p="UnlockMouse.cs" t="Include" />
           </e>
           <e p="Player" t="Include">

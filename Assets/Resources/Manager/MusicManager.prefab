@@ -44,8 +44,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74a4c0c3197c8f345bc125372f364f0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTime: 3
+  currentTime: 0
   isPlaying: 0
+  volume: 0.35
+  _audioSource: {fileID: 0}
 --- !u!82 &1504262203981039094
 AudioSource:
   m_ObjectHideFlags: 0

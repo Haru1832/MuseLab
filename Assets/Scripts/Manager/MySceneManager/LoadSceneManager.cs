@@ -35,7 +35,7 @@ public class LoadSceneManager : MonoBehaviour
         while (asyncLoad.progress < 0.9f)               // ロードが完了するまで 3 秒待機を繰り返す
         {
             
-            yield return new WaitForSeconds(5f);
+            yield return new WaitForSeconds(1f);
         }
         asyncLoad.allowSceneActivation = true;   
         

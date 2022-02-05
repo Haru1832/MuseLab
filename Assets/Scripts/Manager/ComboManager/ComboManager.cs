@@ -15,6 +15,11 @@ public class ComboManager : MonoBehaviour
     {
         combo.Reset();
     }
+    
+    public void ResetMaxCombo()
+    {
+        combo.ResetMaxCombo();
+    }
 
     public int GetCombo()
     {
