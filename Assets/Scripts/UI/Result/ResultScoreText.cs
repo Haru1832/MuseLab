@@ -1,5 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
+using Cysharp.Threading.Tasks;
 using DG.Tweening;
 using GameManager.ScoreManager;
 using TMPro;
@@ -9,6 +12,12 @@ using Zenject;
 
 public class ResultScoreText : MonoBehaviour
 {
+    [SerializeField] private AudioSource audioSource;
+    
+    [SerializeField]
+    private float tweenTime = 3;
+
+    private CancellationToken _token;
     private TextMeshProUGUI _text;
     private int currentScore = 0;
     private int _score;
@@ -18,14 +27,22 @@ public class ResultScoreText : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _token = this.GetCancellationTokenOnDestroy();
         _text = GetComponent<TextMeshProUGUI>();
         _score = _scoreManager.GetScore();
         
+        PlayScoreRoll(_token).Forget();
+    }
+
+
+    async UniTaskVoid PlayScoreRoll(CancellationToken token)
+    {
+        await UniTask.WaitUntil(() => audioSource.isPlaying, cancellationToken: token);
         DOTween.To(
                 () => currentScore, 
                 value => currentScore = value,
                 _score, 
-                2f)
+                tweenTime)
             .OnUpdate(() => _text.text = string.Format($" {currentScore:D8}"));
     }
 

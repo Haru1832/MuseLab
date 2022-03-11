@@ -34,6 +34,7 @@ public class MusicManager : MonoBehaviour
     private void Start()
     {
         _audioSource = GetComponent<AudioSource>();
+        _audioSource.volume = volume;
         _token = this.GetCancellationTokenOnDestroy();
         //Debug.Log(MyGameManager.Instance.MusicName);
         

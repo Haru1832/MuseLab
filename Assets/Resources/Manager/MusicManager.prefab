@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentTime: 0
   isPlaying: 0
-  volume: 0.35
+  volume: 0.2
   _audioSource: {fileID: 0}
 --- !u!82 &1504262203981039094
 AudioSource:
